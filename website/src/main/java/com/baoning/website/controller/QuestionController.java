@@ -1,8 +1,8 @@
 package com.baoning.website.controller;
 
 import com.alibaba.fastjson.JSON;
-import com.baoning.website.model.HostHolder;
-import com.baoning.website.model.Question;
+import com.baoning.website.model.*;
+import com.baoning.website.service.CommentService;
 import com.baoning.website.service.QuestionService;
 import com.baoning.website.service.UserService;
 import com.baoning.website.util.JSONUtil;
@@ -13,7 +13,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 /**
  * created by baoning on 2018/9/9
@@ -30,6 +32,9 @@ public class QuestionController {
 
     @Autowired
     UserService userService;
+
+    @Autowired
+    CommentService commentService;
 
 
     @RequestMapping(value = "/question/add", method = {RequestMethod.POST})
@@ -58,11 +63,20 @@ public class QuestionController {
     }
 
 
-    @RequestMapping(value = "/question/{qid}")
+    @RequestMapping(value = "/question/{qid}", method = {RequestMethod.GET})
     public String questionDetail(Model model, @PathVariable("qid") int qid){
         Question question = questionService.selectByid(qid);
         model.addAttribute("question", question);
-        model.addAttribute("user", userService.getUser(question.getUserId()));
+
+        List<Comment> commentList = commentService.getCommentByEntity(qid, EntityType.ENTITY_QUESTION);
+        List<ViewObject> comments = new ArrayList<ViewObject>();
+        for(Comment comment : commentList ){
+            ViewObject vo = new ViewObject();
+            vo.set("comment", comment);
+            vo.set("user", userService.getUser(comment.getUserId()));
+            comments.add(vo);
+        }
+        model.addAttribute("comments", comments);
         return "detail";
     }
 
