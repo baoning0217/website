@@ -1,5 +1,6 @@
 package com.baoning.website.controller;
 
+import com.baoning.website.model.HostHolder;
 import com.baoning.website.model.Question;
 import com.baoning.website.model.ViewObject;
 import com.baoning.website.service.QuestionService;
@@ -31,6 +32,8 @@ public class HomeController {
     @Autowired
     QuestionService questionService;
 
+    @Autowired
+    HostHolder hostHolder;
 
 
     @RequestMapping(path = {"/user/{userId}"}, method = {RequestMethod.GET})

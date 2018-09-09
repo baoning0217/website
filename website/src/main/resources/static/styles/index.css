@@ -9716,9 +9716,9 @@ a>.invisible {
 
 .zu-top-link-logo {
     float: left;
-    width: 61px;
-    height: 100%;
-    background-image: url(../images/res/nk.png);
+    width: 46px;
+    height: 46px;
+    background-image: url(../images/res/login.png);
     background-repeat: no-repeat;
     background-position: center;
     text-indent: -9999px;
