@@ -1,7 +1,12 @@
 package com.baoning.website.controller;
 
+import com.baoning.website.async.EventModel;
+import com.baoning.website.async.EventProducer;
+import com.baoning.website.async.EventType;
+import com.baoning.website.model.Comment;
 import com.baoning.website.model.EntityType;
 import com.baoning.website.model.HostHolder;
+import com.baoning.website.service.CommentService;
 import com.baoning.website.service.LikeService;
 import com.baoning.website.util.JSONUtil;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,6 +28,12 @@ public class LikeController {
     @Autowired
     HostHolder hostHolder;
 
+    @Autowired
+    EventProducer eventProducer;
+
+    @Autowired
+    CommentService commentService;
+
 
     @RequestMapping(path = {"/like"}, method = {RequestMethod.POST})
     @ResponseBody
@@ -30,8 +41,15 @@ public class LikeController {
         if(hostHolder.getUser() == null ){
             return JSONUtil.getJSONString(999);
         }
-        long likeCount = likeService.like(hostHolder.getUser().getId(), EntityType.ENTITY_COMMENT, commentId);
-        System.out.println("hostHolder:" + hostHolder.getUser() +  " id：" + hostHolder.getUser().getId());
+        Comment comment = commentService.getCommentById(commentId);
+
+        eventProducer.fireEvent(new EventModel(EventType.LIKE)
+                .setActorId(hostHolder.getUser().getId())
+                .setEntityId(commentId)
+                .setEntityType(EntityType.ENTITY_COMMENT).setEntityOwnerId(comment.getUserId())
+                .setExt("questionId", String.valueOf(comment.getEntityId())));
+
+        long likeCount = likeService.like(hostHolder.getUser().getId(),EntityType.ENTITY_COMMENT,commentId);
         return JSONUtil.getJSONString(0, String.valueOf(likeCount));
     }
 

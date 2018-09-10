@@ -41,6 +41,7 @@ public class LikeService {
         //将不喜欢取消
         String disLikeKey =  RedisKeyUtil.getDisLikeKey(entityType, entityId);
         jedisAdapter.srem(disLikeKey, String.valueOf(userId));
+
         return jedisAdapter.scard(likeKey);
     }
 
@@ -49,8 +50,10 @@ public class LikeService {
     public long disLike (int userId, int entityType, int entityId){
         String disLikeKey =  RedisKeyUtil.getDisLikeKey(entityType, entityId);
         jedisAdapter.sadd(disLikeKey, String.valueOf(userId));
+
         String likeKey = RedisKeyUtil.getLikeKey(entityType, entityId);
         jedisAdapter.srem(likeKey, String.valueOf(userId));
+
         return jedisAdapter.scard(likeKey);
     }
 

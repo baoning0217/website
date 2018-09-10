@@ -40,5 +40,8 @@ public class CommentService {
         return commentDao.updateStatus(commentId, 1) > 0 ;
     }
 
+    public Comment getCommentById(int id){
+        return commentDao.getCommentById(id);
+    }
 
 }

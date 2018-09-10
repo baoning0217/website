@@ -23,7 +23,7 @@ public class JedisAdapter implements InitializingBean {
 
     //创建redis线程池
     public void afterPropertiesSet() throws Exception {
-        pool = new JedisPool("redis://192.168.65.206:6379/0");
+        pool = new JedisPool("redis://192.168.65.206:6379/1");
     }
 
 
@@ -44,16 +44,16 @@ public class JedisAdapter implements InitializingBean {
     }
 
 
-    //移除集合 key 中的一个或多个 member 元素，不存在的 member 元素会被忽略。
-    public long srem(String key, String value){
+    //移除集合 key 中的一个或多个 member 元素，不存在的 member 元素会被忽略
+    public long srem(String key, String value) {
         Jedis jedis = null;
-        try{
+        try {
             jedis = pool.getResource();
             return jedis.srem(key, value);
-        }catch (Exception e){
-            logger.error("发生异常:" + e.getMessage());
-        }finally {
-            if(jedis != null){
+        } catch (Exception e) {
+            logger.error("发生异常" + e.getMessage());
+        } finally {
+            if (jedis != null) {
                 jedis.close();
             }
         }
@@ -66,7 +66,7 @@ public class JedisAdapter implements InitializingBean {
         Jedis jedis = null;
         try{
             jedis = pool.getResource();
-            return jedis.srem(key);
+            return jedis.scard(key);
         }catch (Exception e){
             logger.error("发生异常:" + e.getMessage());
         }finally {
