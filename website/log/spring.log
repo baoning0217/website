@@ -2399,3 +2399,677 @@ Caused by: java.lang.IllegalArgumentException: Mapped Statements collection alre
 2018-09-09 22:49:55.694  INFO 10932 --- [http-nio-8080-exec-1] o.a.v.t.v.servlet.ServletToolboxManager  : Using config file '/toolbox.xml'
 2018-09-09 22:49:55.695  WARN 10932 --- [http-nio-8080-exec-1] o.a.v.tools.view.XMLToolboxManager       : XMLToolboxManager has been deprecated. Please use org.apache.velocity.tools.ToolboxFactory instead.
 2018-09-09 22:49:55.695  WARN 10932 --- [http-nio-8080-exec-1] o.a.v.t.v.servlet.ServletToolboxManager  : ServletToolboxManager has been deprecated. Please use org.apache.velocity.tools.ToolboxFactory instead.
+2018-09-09 22:56:56.134 ERROR 10932 --- [http-nio-8080-exec-2] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-09 22:56:56.136 ERROR 10932 --- [http-nio-8080-exec-2] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-09 22:56:56.137 ERROR 10932 --- [http-nio-8080-exec-2] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-09 22:56:56.137 ERROR 10932 --- [http-nio-8080-exec-2] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-09 22:56:56.137 ERROR 10932 --- [http-nio-8080-exec-2] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-09 22:56:56.138 ERROR 10932 --- [http-nio-8080-exec-2] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-09 22:56:56.138 ERROR 10932 --- [http-nio-8080-exec-2] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-09 22:56:56.138 ERROR 10932 --- [http-nio-8080-exec-2] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-09 22:58:49.069 ERROR 10932 --- [http-nio-8080-exec-10] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-09 22:58:49.069 ERROR 10932 --- [http-nio-8080-exec-10] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-09 22:58:49.069 ERROR 10932 --- [http-nio-8080-exec-10] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-09 22:58:49.069 ERROR 10932 --- [http-nio-8080-exec-10] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-09 22:58:49.070 ERROR 10932 --- [http-nio-8080-exec-10] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-09 22:58:49.070 ERROR 10932 --- [http-nio-8080-exec-10] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-09 22:58:49.070 ERROR 10932 --- [http-nio-8080-exec-10] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-09 22:58:49.071 ERROR 10932 --- [http-nio-8080-exec-10] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-09 22:58:51.076 ERROR 10932 --- [http-nio-8080-exec-10] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-09 22:58:51.077 ERROR 10932 --- [http-nio-8080-exec-10] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-09 22:58:51.077 ERROR 10932 --- [http-nio-8080-exec-10] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-09 22:58:51.077 ERROR 10932 --- [http-nio-8080-exec-10] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-09 22:58:51.078 ERROR 10932 --- [http-nio-8080-exec-10] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-09 22:58:51.078 ERROR 10932 --- [http-nio-8080-exec-10] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-09 22:58:51.078 ERROR 10932 --- [http-nio-8080-exec-10] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-09 22:58:51.078 ERROR 10932 --- [http-nio-8080-exec-10] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-09 22:58:52.536 ERROR 10932 --- [http-nio-8080-exec-1] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-09 22:58:52.536 ERROR 10932 --- [http-nio-8080-exec-1] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-09 22:58:52.536 ERROR 10932 --- [http-nio-8080-exec-1] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-09 22:58:52.537 ERROR 10932 --- [http-nio-8080-exec-1] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-09 22:58:52.537 ERROR 10932 --- [http-nio-8080-exec-1] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-09 22:58:52.537 ERROR 10932 --- [http-nio-8080-exec-1] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-09 22:58:52.538 ERROR 10932 --- [http-nio-8080-exec-1] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-09 22:58:52.538 ERROR 10932 --- [http-nio-8080-exec-1] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-09 22:58:59.086  WARN 10932 --- [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound             : Request method 'POST' not supported
+2018-09-10 10:09:10.795  INFO 7492 --- [restartedMain] com.baoning.website.WebsiteApplication   : Starting WebsiteApplication on Captain with PID 7492 (D:\IdeaProject\website\target\classes started by baoning in D:\IdeaProject\website)
+2018-09-10 10:09:10.811  INFO 7492 --- [restartedMain] com.baoning.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2018-09-10 10:09:10.983  INFO 7492 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@34007aec: startup date [Mon Sep 10 10:09:10 CST 2018]; root of context hierarchy
+2018-09-10 10:09:12.827  INFO 7492 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2698ebb4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-10 10:09:13.530  INFO 7492 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-09-10 10:09:13.561  INFO 7492 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-09-10 10:09:13.561  INFO 7492 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.36
+2018-09-10 10:09:13.686  INFO 7492 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-09-10 10:09:13.686  INFO 7492 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2703 ms
+2018-09-10 10:09:14.077  INFO 7492 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-10 10:09:14.077  INFO 7492 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-10 10:09:14.077  INFO 7492 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-10 10:09:14.077  INFO 7492 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-10 10:09:14.077  INFO 7492 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-10 10:09:15.468  INFO 7492 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@34007aec: startup date [Mon Sep 10 10:09:10 CST 2018]; root of context hierarchy
+2018-09-10 10:09:15.514  INFO 7492 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/addComment],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.CommentController.addComment(int,java.lang.String)
+2018-09-10 10:09:15.514  INFO 7492 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/ || /index],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.HomeController.index(org.springframework.ui.Model)
+2018-09-10 10:09:15.514  INFO 7492 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/{userId}],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.HomeController.userIndex(org.springframework.ui.Model,int)
+2018-09-10 10:09:15.514  INFO 7492 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/dislike],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.LikeController.dislike(int)
+2018-09-10 10:09:15.514  INFO 7492 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/like],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.LikeController.like(int)
+2018-09-10 10:09:15.514  INFO 7492 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/reglogin],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.LoginController.reg(org.springframework.ui.Model,java.lang.String)
+2018-09-10 10:09:15.514  INFO 7492 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/reg/],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.LoginController.reg(org.springframework.ui.Model,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String)
+2018-09-10 10:09:15.514  INFO 7492 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.LoginController.logout(java.lang.String)
+2018-09-10 10:09:15.514  INFO 7492 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login/],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.LoginController.login(org.springframework.ui.Model,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String,boolean)
+2018-09-10 10:09:15.514  INFO 7492 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/msg/list],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.MessageController.getConversationList(org.springframework.ui.Model)
+2018-09-10 10:09:15.514  INFO 7492 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/msg/detail],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.MessageController.getConversationDetail(org.springframework.ui.Model,java.lang.String)
+2018-09-10 10:09:15.514  INFO 7492 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/msg/addMessage],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.MessageController.addMessage(java.lang.String,java.lang.String)
+2018-09-10 10:09:15.530  INFO 7492 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/question/add],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.QuestionController.addQuestion(java.lang.String,java.lang.String)
+2018-09-10 10:09:15.530  INFO 7492 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/question/{qid}],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.QuestionController.questionDetail(org.springframework.ui.Model,int)
+2018-09-10 10:09:15.530  INFO 7492 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-10 10:09:15.530  INFO 7492 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-10 10:09:15.546  INFO 7492 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-10 10:09:15.546  INFO 7492 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-10 10:09:15.577  INFO 7492 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-10 10:09:15.624  INFO 7492 --- [restartedMain] s.b.w.s.v.v.EmbeddedVelocityViewResolver : Using EmbeddedVelocityToolboxView instead of default VelocityView due to specified toolboxConfigLocation
+2018-09-10 10:09:15.889  INFO 7492 --- [restartedMain] o.s.w.s.v.velocity.VelocityConfigurer    : ClasspathResourceLoader with name 'springMacro' added to configured VelocityEngine
+2018-09-10 10:09:16.046  INFO 7492 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-09-10 10:09:16.124  INFO 7492 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-10 10:09:16.280  INFO 7492 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-09-10 10:09:16.312  INFO 7492 --- [restartedMain] com.baoning.website.WebsiteApplication   : Started WebsiteApplication in 6.439 seconds (JVM running for 8.602)
+2018-09-10 10:09:38.497  INFO 7492 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-10 10:09:38.498  INFO 7492 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-10 10:09:38.518  INFO 7492 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2018-09-10 10:09:39.437  INFO 7492 --- [http-nio-8080-exec-1] o.a.v.t.v.servlet.ServletToolboxManager  : Using config file '/toolbox.xml'
+2018-09-10 10:09:39.438  WARN 7492 --- [http-nio-8080-exec-1] o.a.v.tools.view.XMLToolboxManager       : XMLToolboxManager has been deprecated. Please use org.apache.velocity.tools.ToolboxFactory instead.
+2018-09-10 10:09:39.438  WARN 7492 --- [http-nio-8080-exec-1] o.a.v.t.v.servlet.ServletToolboxManager  : ServletToolboxManager has been deprecated. Please use org.apache.velocity.tools.ToolboxFactory instead.
+2018-09-10 10:09:58.503 ERROR 7492 --- [http-nio-8080-exec-9] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 10:09:58.503 ERROR 7492 --- [http-nio-8080-exec-9] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 10:09:58.504 ERROR 7492 --- [http-nio-8080-exec-9] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 10:09:58.505 ERROR 7492 --- [http-nio-8080-exec-9] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 10:09:58.506 ERROR 7492 --- [http-nio-8080-exec-9] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 10:09:58.506 ERROR 7492 --- [http-nio-8080-exec-9] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 10:09:58.506 ERROR 7492 --- [http-nio-8080-exec-9] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 10:09:58.507 ERROR 7492 --- [http-nio-8080-exec-9] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 10:10:00.235 ERROR 7492 --- [http-nio-8080-exec-8] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 10:10:04.511 ERROR 7492 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 10:10:05.237 ERROR 7492 --- [http-nio-8080-exec-3] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 10:10:07.631 ERROR 7492 --- [http-nio-8080-exec-5] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 10:10:08.200 ERROR 7492 --- [http-nio-8080-exec-10] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 10:10:10.072 ERROR 7492 --- [http-nio-8080-exec-9] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 10:10:10.072 ERROR 7492 --- [http-nio-8080-exec-9] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 10:10:10.073 ERROR 7492 --- [http-nio-8080-exec-9] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 10:10:10.074 ERROR 7492 --- [http-nio-8080-exec-9] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 10:10:10.075 ERROR 7492 --- [http-nio-8080-exec-9] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 10:10:10.075 ERROR 7492 --- [http-nio-8080-exec-9] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 10:10:10.075 ERROR 7492 --- [http-nio-8080-exec-9] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 10:10:10.076 ERROR 7492 --- [http-nio-8080-exec-9] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 10:11:51.072 ERROR 7492 --- [http-nio-8080-exec-9] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 10:12:00.819 ERROR 7492 --- [http-nio-8080-exec-5] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 10:12:01.599 ERROR 7492 --- [http-nio-8080-exec-7] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 10:12:03.445 ERROR 7492 --- [http-nio-8080-exec-1] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 10:12:03.445 ERROR 7492 --- [http-nio-8080-exec-1] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 10:12:03.445 ERROR 7492 --- [http-nio-8080-exec-1] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 10:12:03.446 ERROR 7492 --- [http-nio-8080-exec-1] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 10:12:03.446 ERROR 7492 --- [http-nio-8080-exec-1] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 10:12:03.446 ERROR 7492 --- [http-nio-8080-exec-1] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 10:12:03.447 ERROR 7492 --- [http-nio-8080-exec-1] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 10:12:03.447 ERROR 7492 --- [http-nio-8080-exec-1] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 10:12:04.945 ERROR 7492 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 10:12:06.291 ERROR 7492 --- [http-nio-8080-exec-10] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 10:12:06.291 ERROR 7492 --- [http-nio-8080-exec-10] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 10:12:06.292 ERROR 7492 --- [http-nio-8080-exec-10] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 10:12:06.292 ERROR 7492 --- [http-nio-8080-exec-10] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 10:12:06.293 ERROR 7492 --- [http-nio-8080-exec-10] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 10:12:06.293 ERROR 7492 --- [http-nio-8080-exec-10] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 10:12:06.293 ERROR 7492 --- [http-nio-8080-exec-10] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 10:12:06.294 ERROR 7492 --- [http-nio-8080-exec-10] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 10:12:24.864 ERROR 7492 --- [http-nio-8080-exec-8] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 10:12:43.782 ERROR 7492 --- [http-nio-8080-exec-7] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 10:12:55.699 ERROR 7492 --- [http-nio-8080-exec-1] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 10:12:55.699 ERROR 7492 --- [http-nio-8080-exec-1] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 10:12:55.700 ERROR 7492 --- [http-nio-8080-exec-1] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 10:12:55.700 ERROR 7492 --- [http-nio-8080-exec-1] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 10:12:55.701 ERROR 7492 --- [http-nio-8080-exec-1] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 10:12:55.701 ERROR 7492 --- [http-nio-8080-exec-1] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 10:12:55.701 ERROR 7492 --- [http-nio-8080-exec-1] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 10:12:55.701 ERROR 7492 --- [http-nio-8080-exec-1] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 10:13:02.535 ERROR 7492 --- [http-nio-8080-exec-4] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 10:13:14.899 ERROR 7492 --- [http-nio-8080-exec-10] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 12:53:49.813 ERROR 7492 --- [http-nio-8080-exec-7] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 12:53:49.814 ERROR 7492 --- [http-nio-8080-exec-7] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 12:53:49.814 ERROR 7492 --- [http-nio-8080-exec-7] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 12:53:49.814 ERROR 7492 --- [http-nio-8080-exec-7] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 12:53:49.815 ERROR 7492 --- [http-nio-8080-exec-7] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 12:53:49.815 ERROR 7492 --- [http-nio-8080-exec-7] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 12:53:49.815 ERROR 7492 --- [http-nio-8080-exec-7] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 12:53:49.815 ERROR 7492 --- [http-nio-8080-exec-7] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 12:53:50.946 ERROR 7492 --- [http-nio-8080-exec-3] com.baoning.website.util.JedisAdapter    : 发生异常java.net.SocketException: Connection reset by peer: socket write error
+2018-09-10 12:53:50.948 ERROR 7492 --- [http-nio-8080-exec-3] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 12:53:52.449 ERROR 7492 --- [http-nio-8080-exec-8] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 12:54:19.938 ERROR 7492 --- [http-nio-8080-exec-6] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 12:54:19.939 ERROR 7492 --- [http-nio-8080-exec-6] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 12:54:19.940 ERROR 7492 --- [http-nio-8080-exec-6] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 12:54:19.940 ERROR 7492 --- [http-nio-8080-exec-6] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 12:54:19.941 ERROR 7492 --- [http-nio-8080-exec-6] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 12:54:19.941 ERROR 7492 --- [http-nio-8080-exec-6] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 12:54:19.941 ERROR 7492 --- [http-nio-8080-exec-6] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 12:54:19.941 ERROR 7492 --- [http-nio-8080-exec-6] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 12:54:21.474 ERROR 7492 --- [http-nio-8080-exec-3] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 12:54:22.293 ERROR 7492 --- [http-nio-8080-exec-5] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 12:54:23.002 ERROR 7492 --- [http-nio-8080-exec-6] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 12:54:24.300 ERROR 7492 --- [http-nio-8080-exec-8] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 12:54:24.301 ERROR 7492 --- [http-nio-8080-exec-8] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 12:54:24.301 ERROR 7492 --- [http-nio-8080-exec-8] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 12:54:24.301 ERROR 7492 --- [http-nio-8080-exec-8] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 12:54:24.302 ERROR 7492 --- [http-nio-8080-exec-8] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 12:54:24.302 ERROR 7492 --- [http-nio-8080-exec-8] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 12:54:24.302 ERROR 7492 --- [http-nio-8080-exec-8] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 12:54:24.303 ERROR 7492 --- [http-nio-8080-exec-8] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 12:54:49.840 ERROR 7492 --- [http-nio-8080-exec-1] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 12:54:49.840 ERROR 7492 --- [http-nio-8080-exec-1] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 12:54:49.841 ERROR 7492 --- [http-nio-8080-exec-1] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 12:54:49.841 ERROR 7492 --- [http-nio-8080-exec-1] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 12:54:49.841 ERROR 7492 --- [http-nio-8080-exec-1] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 12:54:49.842 ERROR 7492 --- [http-nio-8080-exec-1] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 12:54:49.842 ERROR 7492 --- [http-nio-8080-exec-1] org.apache.velocity                      : Left side ($comment.liked) of '>' operation has null value at detail.html[line 59, column 45]
+2018-09-10 12:54:49.842 ERROR 7492 --- [http-nio-8080-exec-1] org.apache.velocity                      : Left side ($comment.liked) of '<' operation has null value at detail.html[line 69, column 45]
+2018-09-10 12:54:51.448 ERROR 7492 --- [http-nio-8080-exec-6] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 13:03:05.982  INFO 8488 --- [restartedMain] com.baoning.website.WebsiteApplication   : Starting WebsiteApplication on Captain with PID 8488 (D:\IdeaProject\website\target\classes started by baoning in D:\IdeaProject\website)
+2018-09-10 13:03:05.985  INFO 8488 --- [restartedMain] com.baoning.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2018-09-10 13:03:06.075  INFO 8488 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7bc14f2b: startup date [Mon Sep 10 13:03:06 CST 2018]; root of context hierarchy
+2018-09-10 13:03:07.587  INFO 8488 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e81423e7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-10 13:03:07.876  INFO 8488 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-09-10 13:03:07.885  INFO 8488 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-09-10 13:03:07.886  INFO 8488 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.36
+2018-09-10 13:03:07.954  INFO 8488 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-09-10 13:03:07.955  INFO 8488 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1884 ms
+2018-09-10 13:03:08.201  INFO 8488 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-10 13:03:08.205  INFO 8488 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-10 13:03:08.206  INFO 8488 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-10 13:03:08.206  INFO 8488 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-10 13:03:08.206  INFO 8488 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-10 13:03:08.690  INFO 8488 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7bc14f2b: startup date [Mon Sep 10 13:03:06 CST 2018]; root of context hierarchy
+2018-09-10 13:03:08.730  INFO 8488 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/addComment],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.CommentController.addComment(int,java.lang.String)
+2018-09-10 13:03:08.731  INFO 8488 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/ || /index],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.HomeController.index(org.springframework.ui.Model)
+2018-09-10 13:03:08.732  INFO 8488 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/{userId}],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.HomeController.userIndex(org.springframework.ui.Model,int)
+2018-09-10 13:03:08.732  INFO 8488 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/like],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.LikeController.like(int)
+2018-09-10 13:03:08.733  INFO 8488 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/dislike],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.LikeController.dislike(int)
+2018-09-10 13:03:08.733  INFO 8488 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/reglogin],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.LoginController.reg(org.springframework.ui.Model,java.lang.String)
+2018-09-10 13:03:08.734  INFO 8488 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/reg/],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.LoginController.reg(org.springframework.ui.Model,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String)
+2018-09-10 13:03:08.734  INFO 8488 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login/],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.LoginController.login(org.springframework.ui.Model,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String,boolean)
+2018-09-10 13:03:08.734  INFO 8488 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.LoginController.logout(java.lang.String)
+2018-09-10 13:03:08.735  INFO 8488 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/msg/list],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.MessageController.getConversationList(org.springframework.ui.Model)
+2018-09-10 13:03:08.735  INFO 8488 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/msg/detail],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.MessageController.getConversationDetail(org.springframework.ui.Model,java.lang.String)
+2018-09-10 13:03:08.735  INFO 8488 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/msg/addMessage],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.MessageController.addMessage(java.lang.String,java.lang.String)
+2018-09-10 13:03:08.736  INFO 8488 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/question/{qid}],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.QuestionController.questionDetail(org.springframework.ui.Model,int)
+2018-09-10 13:03:08.737  INFO 8488 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/question/add],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.QuestionController.addQuestion(java.lang.String,java.lang.String)
+2018-09-10 13:03:08.741  INFO 8488 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-10 13:03:08.742  INFO 8488 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-10 13:03:08.764  INFO 8488 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-10 13:03:08.765  INFO 8488 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-10 13:03:08.793  INFO 8488 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-10 13:03:08.831  INFO 8488 --- [restartedMain] s.b.w.s.v.v.EmbeddedVelocityViewResolver : Using EmbeddedVelocityToolboxView instead of default VelocityView due to specified toolboxConfigLocation
+2018-09-10 13:03:08.933  INFO 8488 --- [restartedMain] o.s.w.s.v.velocity.VelocityConfigurer    : ClasspathResourceLoader with name 'springMacro' added to configured VelocityEngine
+2018-09-10 13:03:09.050  INFO 8488 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-09-10 13:03:09.091  INFO 8488 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-10 13:03:09.150  INFO 8488 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-09-10 13:03:09.160  INFO 8488 --- [restartedMain] com.baoning.website.WebsiteApplication   : Started WebsiteApplication in 3.535 seconds (JVM running for 4.691)
+2018-09-10 13:03:20.873  INFO 8488 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-10 13:03:20.873  INFO 8488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-10 13:03:20.886  INFO 8488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 13 ms
+2018-09-10 13:03:21.276 ERROR 8488 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 13:03:21.278 ERROR 8488 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 13:03:21.281 ERROR 8488 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 13:03:21.283 ERROR 8488 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 13:03:21.339  INFO 8488 --- [http-nio-8080-exec-1] o.a.v.t.v.servlet.ServletToolboxManager  : Using config file '/toolbox.xml'
+2018-09-10 13:03:21.339  WARN 8488 --- [http-nio-8080-exec-1] o.a.v.tools.view.XMLToolboxManager       : XMLToolboxManager has been deprecated. Please use org.apache.velocity.tools.ToolboxFactory instead.
+2018-09-10 13:03:21.339  WARN 8488 --- [http-nio-8080-exec-1] o.a.v.t.v.servlet.ServletToolboxManager  : ServletToolboxManager has been deprecated. Please use org.apache.velocity.tools.ToolboxFactory instead.
+2018-09-10 13:03:27.601 ERROR 8488 --- [http-nio-8080-exec-9] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 13:03:43.040 ERROR 8488 --- [http-nio-8080-exec-10] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 13:03:43.042 ERROR 8488 --- [http-nio-8080-exec-10] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 13:03:43.045 ERROR 8488 --- [http-nio-8080-exec-10] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 13:03:43.048 ERROR 8488 --- [http-nio-8080-exec-10] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 13:03:47.087 ERROR 8488 --- [http-nio-8080-exec-10] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 13:03:47.090 ERROR 8488 --- [http-nio-8080-exec-10] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 13:03:47.092 ERROR 8488 --- [http-nio-8080-exec-10] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 13:03:47.094 ERROR 8488 --- [http-nio-8080-exec-10] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 14:00:07.743 ERROR 8488 --- [http-nio-8080-exec-4] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 14:00:07.745 ERROR 8488 --- [http-nio-8080-exec-4] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 14:00:07.747 ERROR 8488 --- [http-nio-8080-exec-4] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 14:00:07.748 ERROR 8488 --- [http-nio-8080-exec-4] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 14:00:14.271 ERROR 8488 --- [http-nio-8080-exec-3] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 14:00:14.273 ERROR 8488 --- [http-nio-8080-exec-3] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 14:00:14.274 ERROR 8488 --- [http-nio-8080-exec-3] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 14:00:14.276 ERROR 8488 --- [http-nio-8080-exec-3] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 14:00:26.718 ERROR 8488 --- [http-nio-8080-exec-9] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 14:00:26.720 ERROR 8488 --- [http-nio-8080-exec-9] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 14:00:26.723 ERROR 8488 --- [http-nio-8080-exec-9] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 14:00:26.725 ERROR 8488 --- [http-nio-8080-exec-9] com.baoning.website.util.JedisAdapter    : 发生异常ERR wrong number of arguments for 'srem' command
+2018-09-10 14:04:22.861  INFO 8892 --- [restartedMain] com.baoning.website.WebsiteApplication   : Starting WebsiteApplication on Captain with PID 8892 (D:\IdeaProject\website\target\classes started by baoning in D:\IdeaProject\website)
+2018-09-10 14:04:22.865  INFO 8892 --- [restartedMain] com.baoning.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2018-09-10 14:04:22.937  INFO 8892 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@64615585: startup date [Mon Sep 10 14:04:22 CST 2018]; root of context hierarchy
+2018-09-10 14:04:24.646  INFO 8892 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$293ce426] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-10 14:04:24.942  INFO 8892 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-09-10 14:04:24.950  INFO 8892 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-09-10 14:04:24.951  INFO 8892 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.36
+2018-09-10 14:04:25.040  INFO 8892 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-09-10 14:04:25.040  INFO 8892 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2127 ms
+2018-09-10 14:04:25.285  INFO 8892 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-10 14:04:25.289  INFO 8892 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-10 14:04:25.289  INFO 8892 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-10 14:04:25.289  INFO 8892 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-10 14:04:25.289  INFO 8892 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-10 14:04:25.768  INFO 8892 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@64615585: startup date [Mon Sep 10 14:04:22 CST 2018]; root of context hierarchy
+2018-09-10 14:04:25.809  INFO 8892 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/addComment],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.CommentController.addComment(int,java.lang.String)
+2018-09-10 14:04:25.810  INFO 8892 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/ || /index],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.HomeController.index(org.springframework.ui.Model)
+2018-09-10 14:04:25.810  INFO 8892 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/{userId}],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.HomeController.userIndex(org.springframework.ui.Model,int)
+2018-09-10 14:04:25.811  INFO 8892 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/dislike],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.LikeController.dislike(int)
+2018-09-10 14:04:25.812  INFO 8892 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/like],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.LikeController.like(int)
+2018-09-10 14:04:25.813  INFO 8892 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/reglogin],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.LoginController.reg(org.springframework.ui.Model,java.lang.String)
+2018-09-10 14:04:25.813  INFO 8892 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/reg/],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.LoginController.reg(org.springframework.ui.Model,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String)
+2018-09-10 14:04:25.813  INFO 8892 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.LoginController.logout(java.lang.String)
+2018-09-10 14:04:25.813  INFO 8892 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login/],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.LoginController.login(org.springframework.ui.Model,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String,boolean)
+2018-09-10 14:04:25.814  INFO 8892 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/msg/list],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.MessageController.getConversationList(org.springframework.ui.Model)
+2018-09-10 14:04:25.814  INFO 8892 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/msg/detail],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.MessageController.getConversationDetail(org.springframework.ui.Model,java.lang.String)
+2018-09-10 14:04:25.814  INFO 8892 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/msg/addMessage],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.MessageController.addMessage(java.lang.String,java.lang.String)
+2018-09-10 14:04:25.815  INFO 8892 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/question/{qid}],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.QuestionController.questionDetail(org.springframework.ui.Model,int)
+2018-09-10 14:04:25.815  INFO 8892 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/question/add],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.QuestionController.addQuestion(java.lang.String,java.lang.String)
+2018-09-10 14:04:25.819  INFO 8892 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-10 14:04:25.820  INFO 8892 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-10 14:04:25.844  INFO 8892 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-10 14:04:25.845  INFO 8892 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-10 14:04:25.872  INFO 8892 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-10 14:04:25.908  INFO 8892 --- [restartedMain] s.b.w.s.v.v.EmbeddedVelocityViewResolver : Using EmbeddedVelocityToolboxView instead of default VelocityView due to specified toolboxConfigLocation
+2018-09-10 14:04:26.012  INFO 8892 --- [restartedMain] o.s.w.s.v.velocity.VelocityConfigurer    : ClasspathResourceLoader with name 'springMacro' added to configured VelocityEngine
+2018-09-10 14:04:26.124  INFO 8892 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-09-10 14:04:26.164  INFO 8892 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-10 14:04:26.216  INFO 8892 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-09-10 14:04:26.222  INFO 8892 --- [restartedMain] com.baoning.website.WebsiteApplication   : Started WebsiteApplication in 3.65 seconds (JVM running for 4.558)
+2018-09-10 14:04:44.911  INFO 8892 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-10 14:04:44.911  INFO 8892 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-10 14:04:44.924  INFO 8892 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 13 ms
+2018-09-10 14:04:45.307 ERROR 8892 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:04:45.309 ERROR 8892 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:04:45.311 ERROR 8892 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:04:45.314 ERROR 8892 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:04:45.367  INFO 8892 --- [http-nio-8080-exec-1] o.a.v.t.v.servlet.ServletToolboxManager  : Using config file '/toolbox.xml'
+2018-09-10 14:04:45.367  WARN 8892 --- [http-nio-8080-exec-1] o.a.v.tools.view.XMLToolboxManager       : XMLToolboxManager has been deprecated. Please use org.apache.velocity.tools.ToolboxFactory instead.
+2018-09-10 14:04:45.367  WARN 8892 --- [http-nio-8080-exec-1] o.a.v.t.v.servlet.ServletToolboxManager  : ServletToolboxManager has been deprecated. Please use org.apache.velocity.tools.ToolboxFactory instead.
+2018-09-10 14:04:51.250 ERROR 8892 --- [http-nio-8080-exec-3] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:04:51.253 ERROR 8892 --- [http-nio-8080-exec-3] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:04:51.257 ERROR 8892 --- [http-nio-8080-exec-3] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:04:51.260 ERROR 8892 --- [http-nio-8080-exec-3] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:04:56.689 ERROR 8892 --- [http-nio-8080-exec-5] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:04:58.882 ERROR 8892 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:05:00.032 ERROR 8892 --- [http-nio-8080-exec-8] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:05:02.170 ERROR 8892 --- [http-nio-8080-exec-9] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:05:02.172 ERROR 8892 --- [http-nio-8080-exec-9] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:05:02.174 ERROR 8892 --- [http-nio-8080-exec-9] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:05:02.176 ERROR 8892 --- [http-nio-8080-exec-9] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:05:06.984 ERROR 8892 --- [http-nio-8080-exec-9] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:05:09.101 ERROR 8892 --- [http-nio-8080-exec-2] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:05:12.846 ERROR 8892 --- [http-nio-8080-exec-7] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:05:15.320  WARN 8892 --- [http-nio-8080-exec-8] o.s.web.servlet.PageNotFound             : Request method 'POST' not supported
+2018-09-10 14:05:18.507 ERROR 8892 --- [http-nio-8080-exec-5] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:05:20.184 ERROR 8892 --- [http-nio-8080-exec-10] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:05:20.186 ERROR 8892 --- [http-nio-8080-exec-10] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:05:20.187 ERROR 8892 --- [http-nio-8080-exec-10] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:05:20.189 ERROR 8892 --- [http-nio-8080-exec-10] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:05:28.483 ERROR 8892 --- [http-nio-8080-exec-2] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:05:28.485 ERROR 8892 --- [http-nio-8080-exec-2] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:05:28.487 ERROR 8892 --- [http-nio-8080-exec-2] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:05:28.489 ERROR 8892 --- [http-nio-8080-exec-2] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:09:18.289  INFO 4992 --- [restartedMain] com.baoning.website.WebsiteApplication   : Starting WebsiteApplication on Captain with PID 4992 (D:\IdeaProject\website\target\classes started by baoning in D:\IdeaProject\website)
+2018-09-10 14:09:18.293  INFO 4992 --- [restartedMain] com.baoning.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2018-09-10 14:09:18.361  INFO 4992 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@32324ac8: startup date [Mon Sep 10 14:09:18 CST 2018]; root of context hierarchy
+2018-09-10 14:09:19.856  INFO 4992 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$241ea345] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-10 14:09:20.145  INFO 4992 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-09-10 14:09:20.154  INFO 4992 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-09-10 14:09:20.155  INFO 4992 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.36
+2018-09-10 14:09:20.273  INFO 4992 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-09-10 14:09:20.273  INFO 4992 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1917 ms
+2018-09-10 14:09:20.528  INFO 4992 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-10 14:09:20.532  INFO 4992 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-10 14:09:20.533  INFO 4992 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-10 14:09:20.533  INFO 4992 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-10 14:09:20.533  INFO 4992 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-10 14:09:21.011  INFO 4992 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@32324ac8: startup date [Mon Sep 10 14:09:18 CST 2018]; root of context hierarchy
+2018-09-10 14:09:21.051  INFO 4992 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/addComment],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.CommentController.addComment(int,java.lang.String)
+2018-09-10 14:09:21.053  INFO 4992 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/ || /index],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.HomeController.index(org.springframework.ui.Model)
+2018-09-10 14:09:21.054  INFO 4992 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/{userId}],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.HomeController.userIndex(org.springframework.ui.Model,int)
+2018-09-10 14:09:21.054  INFO 4992 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/dislike],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.LikeController.dislike(int)
+2018-09-10 14:09:21.054  INFO 4992 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/like],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.LikeController.like(int)
+2018-09-10 14:09:21.055  INFO 4992 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login/],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.LoginController.login(org.springframework.ui.Model,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String,boolean)
+2018-09-10 14:09:21.055  INFO 4992 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/reglogin],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.LoginController.reg(org.springframework.ui.Model,java.lang.String)
+2018-09-10 14:09:21.056  INFO 4992 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/reg/],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.LoginController.reg(org.springframework.ui.Model,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String)
+2018-09-10 14:09:21.056  INFO 4992 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.LoginController.logout(java.lang.String)
+2018-09-10 14:09:21.057  INFO 4992 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/msg/list],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.MessageController.getConversationList(org.springframework.ui.Model)
+2018-09-10 14:09:21.057  INFO 4992 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/msg/detail],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.MessageController.getConversationDetail(org.springframework.ui.Model,java.lang.String)
+2018-09-10 14:09:21.057  INFO 4992 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/msg/addMessage],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.MessageController.addMessage(java.lang.String,java.lang.String)
+2018-09-10 14:09:21.058  INFO 4992 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/question/{qid}],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.QuestionController.questionDetail(org.springframework.ui.Model,int)
+2018-09-10 14:09:21.058  INFO 4992 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/question/add],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.QuestionController.addQuestion(java.lang.String,java.lang.String)
+2018-09-10 14:09:21.061  INFO 4992 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-10 14:09:21.062  INFO 4992 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-10 14:09:21.083  INFO 4992 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-10 14:09:21.083  INFO 4992 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-10 14:09:21.111  INFO 4992 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-10 14:09:21.147  INFO 4992 --- [restartedMain] s.b.w.s.v.v.EmbeddedVelocityViewResolver : Using EmbeddedVelocityToolboxView instead of default VelocityView due to specified toolboxConfigLocation
+2018-09-10 14:09:21.253  INFO 4992 --- [restartedMain] o.s.w.s.v.velocity.VelocityConfigurer    : ClasspathResourceLoader with name 'springMacro' added to configured VelocityEngine
+2018-09-10 14:09:21.367  INFO 4992 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-09-10 14:09:21.406  INFO 4992 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-10 14:09:21.456  INFO 4992 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-09-10 14:09:21.463  INFO 4992 --- [restartedMain] com.baoning.website.WebsiteApplication   : Started WebsiteApplication in 3.5 seconds (JVM running for 4.55)
+2018-09-10 14:09:30.393  INFO 4992 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-10 14:09:30.393  INFO 4992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-10 14:09:30.406  INFO 4992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 12 ms
+2018-09-10 14:09:30.879  INFO 4992 --- [http-nio-8080-exec-1] o.a.v.t.v.servlet.ServletToolboxManager  : Using config file '/toolbox.xml'
+2018-09-10 14:09:30.880  WARN 4992 --- [http-nio-8080-exec-1] o.a.v.tools.view.XMLToolboxManager       : XMLToolboxManager has been deprecated. Please use org.apache.velocity.tools.ToolboxFactory instead.
+2018-09-10 14:09:30.880  WARN 4992 --- [http-nio-8080-exec-1] o.a.v.t.v.servlet.ServletToolboxManager  : ServletToolboxManager has been deprecated. Please use org.apache.velocity.tools.ToolboxFactory instead.
+2018-09-10 14:09:42.474 ERROR 4992 --- [http-nio-8080-exec-7] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:09:42.477 ERROR 4992 --- [http-nio-8080-exec-7] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:09:42.479 ERROR 4992 --- [http-nio-8080-exec-7] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:09:42.481 ERROR 4992 --- [http-nio-8080-exec-7] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:11:37.415 ERROR 4992 --- [http-nio-8080-exec-4] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:11:37.417 ERROR 4992 --- [http-nio-8080-exec-4] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:11:37.419 ERROR 4992 --- [http-nio-8080-exec-4] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:11:37.421 ERROR 4992 --- [http-nio-8080-exec-4] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:11:46.895 ERROR 4992 --- [http-nio-8080-exec-8] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:22:55.871  INFO 1560 --- [restartedMain] com.baoning.website.WebsiteApplication   : Starting WebsiteApplication on Captain with PID 1560 (D:\IdeaProject\website\target\classes started by baoning in D:\IdeaProject\website)
+2018-09-10 14:22:55.875  INFO 1560 --- [restartedMain] com.baoning.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2018-09-10 14:22:55.989  INFO 1560 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16eb5ec: startup date [Mon Sep 10 14:22:55 CST 2018]; root of context hierarchy
+2018-09-10 14:22:57.505  INFO 1560 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bd4de4a6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-10 14:22:57.792  INFO 1560 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-09-10 14:22:57.801  INFO 1560 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-09-10 14:22:57.802  INFO 1560 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.36
+2018-09-10 14:22:57.938  INFO 1560 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-09-10 14:22:57.938  INFO 1560 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1953 ms
+2018-09-10 14:22:58.178  INFO 1560 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-10 14:22:58.182  INFO 1560 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-10 14:22:58.183  INFO 1560 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-10 14:22:58.183  INFO 1560 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-10 14:22:58.183  INFO 1560 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-10 14:22:58.663  INFO 1560 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16eb5ec: startup date [Mon Sep 10 14:22:55 CST 2018]; root of context hierarchy
+2018-09-10 14:22:58.704  INFO 1560 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/addComment],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.CommentController.addComment(int,java.lang.String)
+2018-09-10 14:22:58.705  INFO 1560 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/ || /index],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.HomeController.index(org.springframework.ui.Model)
+2018-09-10 14:22:58.706  INFO 1560 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/{userId}],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.HomeController.userIndex(org.springframework.ui.Model,int)
+2018-09-10 14:22:58.706  INFO 1560 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/like],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.LikeController.like(int)
+2018-09-10 14:22:58.706  INFO 1560 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/dislike],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.LikeController.dislike(int)
+2018-09-10 14:22:58.707  INFO 1560 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/reglogin],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.LoginController.reg(org.springframework.ui.Model,java.lang.String)
+2018-09-10 14:22:58.707  INFO 1560 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/reg/],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.LoginController.reg(org.springframework.ui.Model,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String)
+2018-09-10 14:22:58.709  INFO 1560 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.LoginController.logout(java.lang.String)
+2018-09-10 14:22:58.709  INFO 1560 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login/],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.LoginController.login(org.springframework.ui.Model,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String,boolean)
+2018-09-10 14:22:58.709  INFO 1560 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/msg/list],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.MessageController.getConversationList(org.springframework.ui.Model)
+2018-09-10 14:22:58.709  INFO 1560 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/msg/detail],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.MessageController.getConversationDetail(org.springframework.ui.Model,java.lang.String)
+2018-09-10 14:22:58.709  INFO 1560 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/msg/addMessage],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.MessageController.addMessage(java.lang.String,java.lang.String)
+2018-09-10 14:22:58.712  INFO 1560 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/question/add],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.QuestionController.addQuestion(java.lang.String,java.lang.String)
+2018-09-10 14:22:58.712  INFO 1560 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/question/{qid}],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.QuestionController.questionDetail(org.springframework.ui.Model,int)
+2018-09-10 14:22:58.715  INFO 1560 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-10 14:22:58.716  INFO 1560 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-10 14:22:58.739  INFO 1560 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-10 14:22:58.739  INFO 1560 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-10 14:22:58.778  INFO 1560 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-10 14:22:58.822  INFO 1560 --- [restartedMain] s.b.w.s.v.v.EmbeddedVelocityViewResolver : Using EmbeddedVelocityToolboxView instead of default VelocityView due to specified toolboxConfigLocation
+2018-09-10 14:22:58.957  INFO 1560 --- [restartedMain] o.s.w.s.v.velocity.VelocityConfigurer    : ClasspathResourceLoader with name 'springMacro' added to configured VelocityEngine
+2018-09-10 14:22:59.086  INFO 1560 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-09-10 14:22:59.130  INFO 1560 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-10 14:22:59.192  INFO 1560 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-09-10 14:22:59.199  INFO 1560 --- [restartedMain] com.baoning.website.WebsiteApplication   : Started WebsiteApplication in 3.619 seconds (JVM running for 4.539)
+2018-09-10 14:23:07.685  INFO 1560 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-10 14:23:07.686  INFO 1560 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-10 14:23:07.699  INFO 1560 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 13 ms
+2018-09-10 14:23:08.078 ERROR 1560 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:23:08.081 ERROR 1560 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:23:08.083 ERROR 1560 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:23:08.085 ERROR 1560 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:23:08.140  INFO 1560 --- [http-nio-8080-exec-1] o.a.v.t.v.servlet.ServletToolboxManager  : Using config file '/toolbox.xml'
+2018-09-10 14:23:08.140  WARN 1560 --- [http-nio-8080-exec-1] o.a.v.tools.view.XMLToolboxManager       : XMLToolboxManager has been deprecated. Please use org.apache.velocity.tools.ToolboxFactory instead.
+2018-09-10 14:23:08.140  WARN 1560 --- [http-nio-8080-exec-1] o.a.v.t.v.servlet.ServletToolboxManager  : ServletToolboxManager has been deprecated. Please use org.apache.velocity.tools.ToolboxFactory instead.
+2018-09-10 14:23:20.945 ERROR 1560 --- [http-nio-8080-exec-10] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:23:20.948 ERROR 1560 --- [http-nio-8080-exec-10] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:23:20.950 ERROR 1560 --- [http-nio-8080-exec-10] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:23:20.952 ERROR 1560 --- [http-nio-8080-exec-10] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:23:25.519 ERROR 1560 --- [http-nio-8080-exec-5] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:23:27.144 ERROR 1560 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:24:56.830 ERROR 1560 --- [http-nio-8080-exec-6] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:24:57.667 ERROR 1560 --- [http-nio-8080-exec-10] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:25:00.998 ERROR 1560 --- [http-nio-8080-exec-4] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:25:01.001 ERROR 1560 --- [http-nio-8080-exec-4] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:25:01.003 ERROR 1560 --- [http-nio-8080-exec-4] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:25:01.007 ERROR 1560 --- [http-nio-8080-exec-4] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:25:02.259 ERROR 1560 --- [http-nio-8080-exec-8] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:25:02.261 ERROR 1560 --- [http-nio-8080-exec-8] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:25:02.264 ERROR 1560 --- [http-nio-8080-exec-8] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:25:02.266 ERROR 1560 --- [http-nio-8080-exec-8] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:25:02.872 ERROR 1560 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:25:02.875 ERROR 1560 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:25:02.877 ERROR 1560 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:25:02.879 ERROR 1560 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:29:43.134  INFO 9484 --- [restartedMain] com.baoning.website.WebsiteApplication   : Starting WebsiteApplication on Captain with PID 9484 (D:\IdeaProject\website\target\classes started by baoning in D:\IdeaProject\website)
+2018-09-10 14:29:43.138  INFO 9484 --- [restartedMain] com.baoning.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2018-09-10 14:29:43.222  INFO 9484 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@32324ac8: startup date [Mon Sep 10 14:29:43 CST 2018]; root of context hierarchy
+2018-09-10 14:29:44.746  INFO 9484 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$241ea345] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-10 14:29:45.043  INFO 9484 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-09-10 14:29:45.052  INFO 9484 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-09-10 14:29:45.053  INFO 9484 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.36
+2018-09-10 14:29:45.126  INFO 9484 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-09-10 14:29:45.126  INFO 9484 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1909 ms
+2018-09-10 14:29:45.373  INFO 9484 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-10 14:29:45.378  INFO 9484 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-10 14:29:45.379  INFO 9484 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-10 14:29:45.379  INFO 9484 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-10 14:29:45.379  INFO 9484 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-10 14:29:45.859  INFO 9484 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@32324ac8: startup date [Mon Sep 10 14:29:43 CST 2018]; root of context hierarchy
+2018-09-10 14:29:45.900  INFO 9484 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/addComment],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.CommentController.addComment(int,java.lang.String)
+2018-09-10 14:29:45.901  INFO 9484 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/ || /index],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.HomeController.index(org.springframework.ui.Model)
+2018-09-10 14:29:45.901  INFO 9484 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/{userId}],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.HomeController.userIndex(org.springframework.ui.Model,int)
+2018-09-10 14:29:45.902  INFO 9484 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/like],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.LikeController.like(int)
+2018-09-10 14:29:45.903  INFO 9484 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/dislike],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.LikeController.dislike(int)
+2018-09-10 14:29:45.904  INFO 9484 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/reglogin],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.LoginController.reg(org.springframework.ui.Model,java.lang.String)
+2018-09-10 14:29:45.904  INFO 9484 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/reg/],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.LoginController.reg(org.springframework.ui.Model,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String)
+2018-09-10 14:29:45.904  INFO 9484 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login/],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.LoginController.login(org.springframework.ui.Model,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String,boolean)
+2018-09-10 14:29:45.905  INFO 9484 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.LoginController.logout(java.lang.String)
+2018-09-10 14:29:45.905  INFO 9484 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/msg/detail],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.MessageController.getConversationDetail(org.springframework.ui.Model,java.lang.String)
+2018-09-10 14:29:45.905  INFO 9484 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/msg/list],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.MessageController.getConversationList(org.springframework.ui.Model)
+2018-09-10 14:29:45.906  INFO 9484 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/msg/addMessage],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.MessageController.addMessage(java.lang.String,java.lang.String)
+2018-09-10 14:29:45.906  INFO 9484 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/question/{qid}],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.QuestionController.questionDetail(org.springframework.ui.Model,int)
+2018-09-10 14:29:45.906  INFO 9484 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/question/add],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.QuestionController.addQuestion(java.lang.String,java.lang.String)
+2018-09-10 14:29:45.909  INFO 9484 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-10 14:29:45.910  INFO 9484 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-10 14:29:45.934  INFO 9484 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-10 14:29:45.935  INFO 9484 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-10 14:29:45.965  INFO 9484 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-10 14:29:46.007  INFO 9484 --- [restartedMain] s.b.w.s.v.v.EmbeddedVelocityViewResolver : Using EmbeddedVelocityToolboxView instead of default VelocityView due to specified toolboxConfigLocation
+2018-09-10 14:29:46.112  INFO 9484 --- [restartedMain] o.s.w.s.v.velocity.VelocityConfigurer    : ClasspathResourceLoader with name 'springMacro' added to configured VelocityEngine
+2018-09-10 14:29:46.237  INFO 9484 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-09-10 14:29:46.277  INFO 9484 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-10 14:29:46.331  INFO 9484 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-09-10 14:29:46.336  INFO 9484 --- [restartedMain] com.baoning.website.WebsiteApplication   : Started WebsiteApplication in 3.587 seconds (JVM running for 4.719)
+2018-09-10 14:29:52.832  INFO 9484 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-10 14:29:52.832  INFO 9484 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-10 14:29:52.846  INFO 9484 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+2018-09-10 14:29:53.240 ERROR 9484 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:29:53.243 ERROR 9484 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:29:53.246 ERROR 9484 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:29:53.248 ERROR 9484 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:29:53.302  INFO 9484 --- [http-nio-8080-exec-1] o.a.v.t.v.servlet.ServletToolboxManager  : Using config file '/toolbox.xml'
+2018-09-10 14:29:53.302  WARN 9484 --- [http-nio-8080-exec-1] o.a.v.tools.view.XMLToolboxManager       : XMLToolboxManager has been deprecated. Please use org.apache.velocity.tools.ToolboxFactory instead.
+2018-09-10 14:29:53.302  WARN 9484 --- [http-nio-8080-exec-1] o.a.v.t.v.servlet.ServletToolboxManager  : ServletToolboxManager has been deprecated. Please use org.apache.velocity.tools.ToolboxFactory instead.
+2018-09-10 14:29:57.422 ERROR 9484 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:29:57.424 ERROR 9484 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:29:57.427 ERROR 9484 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:29:57.430 ERROR 9484 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:29:59.414 ERROR 9484 --- [http-nio-8080-exec-3] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:30:00.690 ERROR 9484 --- [http-nio-8080-exec-7] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:30:01.482 ERROR 9484 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:30:02.269 ERROR 9484 --- [http-nio-8080-exec-9] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:30:02.749 ERROR 9484 --- [http-nio-8080-exec-8] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:30:02.952 ERROR 9484 --- [http-nio-8080-exec-2] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:30:03.189 ERROR 9484 --- [http-nio-8080-exec-6] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:30:04.099 ERROR 9484 --- [http-nio-8080-exec-5] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:30:04.102 ERROR 9484 --- [http-nio-8080-exec-5] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:30:04.105 ERROR 9484 --- [http-nio-8080-exec-5] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:30:04.107 ERROR 9484 --- [http-nio-8080-exec-5] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:30:04.980 ERROR 9484 --- [http-nio-8080-exec-5] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:30:04.983 ERROR 9484 --- [http-nio-8080-exec-5] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:30:04.984 ERROR 9484 --- [http-nio-8080-exec-5] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:30:04.986 ERROR 9484 --- [http-nio-8080-exec-5] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:30:06.002 ERROR 9484 --- [http-nio-8080-exec-7] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:30:07.256 ERROR 9484 --- [http-nio-8080-exec-2] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:30:09.424 ERROR 9484 --- [http-nio-8080-exec-6] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:30:10.716 ERROR 9484 --- [http-nio-8080-exec-5] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:30:20.155 ERROR 9484 --- [http-nio-8080-exec-8] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:30:20.157 ERROR 9484 --- [http-nio-8080-exec-8] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:30:20.159 ERROR 9484 --- [http-nio-8080-exec-8] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:30:20.161 ERROR 9484 --- [http-nio-8080-exec-8] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:30:20.163 ERROR 9484 --- [http-nio-8080-exec-8] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:30:25.125 ERROR 9484 --- [http-nio-8080-exec-4] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:30:25.128 ERROR 9484 --- [http-nio-8080-exec-4] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:30:25.130 ERROR 9484 --- [http-nio-8080-exec-4] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:30:25.132 ERROR 9484 --- [http-nio-8080-exec-4] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:30:25.134 ERROR 9484 --- [http-nio-8080-exec-4] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:30:28.553 ERROR 9484 --- [http-nio-8080-exec-3] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:30:29.673 ERROR 9484 --- [http-nio-8080-exec-2] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:30:30.649 ERROR 9484 --- [http-nio-8080-exec-6] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:31:19.584  INFO 828 --- [restartedMain] com.baoning.website.WebsiteApplication   : Starting WebsiteApplication on Captain with PID 828 (D:\IdeaProject\website\target\classes started by baoning in D:\IdeaProject\website)
+2018-09-10 14:31:19.587  INFO 828 --- [restartedMain] com.baoning.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2018-09-10 14:31:19.647  INFO 828 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3aed05c8: startup date [Mon Sep 10 14:31:19 CST 2018]; root of context hierarchy
+2018-09-10 14:31:21.516  INFO 828 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4decd312] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-10 14:31:21.808  INFO 828 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-09-10 14:31:21.819  INFO 828 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-09-10 14:31:21.820  INFO 828 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.36
+2018-09-10 14:31:21.894  INFO 828 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-09-10 14:31:21.894  INFO 828 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2251 ms
+2018-09-10 14:31:22.145  INFO 828 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-10 14:31:22.150  INFO 828 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-10 14:31:22.150  INFO 828 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-10 14:31:22.150  INFO 828 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-10 14:31:22.151  INFO 828 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-10 14:31:22.641  INFO 828 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3aed05c8: startup date [Mon Sep 10 14:31:19 CST 2018]; root of context hierarchy
+2018-09-10 14:31:22.684  INFO 828 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/addComment],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.CommentController.addComment(int,java.lang.String)
+2018-09-10 14:31:22.685  INFO 828 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/ || /index],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.HomeController.index(org.springframework.ui.Model)
+2018-09-10 14:31:22.686  INFO 828 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/{userId}],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.HomeController.userIndex(org.springframework.ui.Model,int)
+2018-09-10 14:31:22.686  INFO 828 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/dislike],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.LikeController.dislike(int)
+2018-09-10 14:31:22.686  INFO 828 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/like],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.LikeController.like(int)
+2018-09-10 14:31:22.687  INFO 828 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/reglogin],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.LoginController.reg(org.springframework.ui.Model,java.lang.String)
+2018-09-10 14:31:22.688  INFO 828 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/reg/],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.LoginController.reg(org.springframework.ui.Model,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String)
+2018-09-10 14:31:22.688  INFO 828 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.LoginController.logout(java.lang.String)
+2018-09-10 14:31:22.688  INFO 828 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login/],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.LoginController.login(org.springframework.ui.Model,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String,boolean)
+2018-09-10 14:31:22.689  INFO 828 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/msg/addMessage],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.MessageController.addMessage(java.lang.String,java.lang.String)
+2018-09-10 14:31:22.689  INFO 828 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/msg/list],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.MessageController.getConversationList(org.springframework.ui.Model)
+2018-09-10 14:31:22.689  INFO 828 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/msg/detail],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.MessageController.getConversationDetail(org.springframework.ui.Model,java.lang.String)
+2018-09-10 14:31:22.690  INFO 828 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/question/add],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.QuestionController.addQuestion(java.lang.String,java.lang.String)
+2018-09-10 14:31:22.691  INFO 828 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/question/{qid}],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.QuestionController.questionDetail(org.springframework.ui.Model,int)
+2018-09-10 14:31:22.694  INFO 828 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-10 14:31:22.694  INFO 828 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-10 14:31:22.718  INFO 828 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-10 14:31:22.718  INFO 828 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-10 14:31:22.748  INFO 828 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-10 14:31:22.784  INFO 828 --- [restartedMain] s.b.w.s.v.v.EmbeddedVelocityViewResolver : Using EmbeddedVelocityToolboxView instead of default VelocityView due to specified toolboxConfigLocation
+2018-09-10 14:31:22.891  INFO 828 --- [restartedMain] o.s.w.s.v.velocity.VelocityConfigurer    : ClasspathResourceLoader with name 'springMacro' added to configured VelocityEngine
+2018-09-10 14:31:23.034  INFO 828 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-09-10 14:31:23.074  INFO 828 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-10 14:31:23.126  INFO 828 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-09-10 14:31:23.131  INFO 828 --- [restartedMain] com.baoning.website.WebsiteApplication   : Started WebsiteApplication in 3.83 seconds (JVM running for 4.743)
+2018-09-10 14:31:26.638  INFO 828 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-10 14:31:26.639  INFO 828 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-10 14:31:26.653  INFO 828 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 13 ms
+2018-09-10 14:31:27.016 ERROR 828 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:31:27.018 ERROR 828 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:31:27.020 ERROR 828 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:31:27.023 ERROR 828 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:31:27.025 ERROR 828 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:31:27.085  INFO 828 --- [http-nio-8080-exec-1] o.a.v.t.v.servlet.ServletToolboxManager  : Using config file '/toolbox.xml'
+2018-09-10 14:31:27.085  WARN 828 --- [http-nio-8080-exec-1] o.a.v.tools.view.XMLToolboxManager       : XMLToolboxManager has been deprecated. Please use org.apache.velocity.tools.ToolboxFactory instead.
+2018-09-10 14:31:27.085  WARN 828 --- [http-nio-8080-exec-1] o.a.v.t.v.servlet.ServletToolboxManager  : ServletToolboxManager has been deprecated. Please use org.apache.velocity.tools.ToolboxFactory instead.
+2018-09-10 14:31:28.727 ERROR 828 --- [http-nio-8080-exec-8] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:31:29.408 ERROR 828 --- [http-nio-8080-exec-2] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:42:43.209  INFO 6984 --- [restartedMain] com.baoning.website.WebsiteApplication   : Starting WebsiteApplication on Captain with PID 6984 (D:\IdeaProject\website\target\classes started by baoning in D:\IdeaProject\website)
+2018-09-10 14:42:43.227  INFO 6984 --- [restartedMain] com.baoning.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2018-09-10 14:42:43.337  INFO 6984 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@516f1ebc: startup date [Mon Sep 10 14:42:43 CST 2018]; root of context hierarchy
+2018-09-10 14:42:44.951  INFO 6984 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a2e3b9ef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-10 14:42:45.259  INFO 6984 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-09-10 14:42:45.268  INFO 6984 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-09-10 14:42:45.269  INFO 6984 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.36
+2018-09-10 14:42:45.388  INFO 6984 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-09-10 14:42:45.388  INFO 6984 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2055 ms
+2018-09-10 14:42:45.645  INFO 6984 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-10 14:42:45.650  INFO 6984 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-10 14:42:45.650  INFO 6984 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-10 14:42:45.650  INFO 6984 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-10 14:42:45.651  INFO 6984 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-10 14:42:46.154  INFO 6984 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@516f1ebc: startup date [Mon Sep 10 14:42:43 CST 2018]; root of context hierarchy
+2018-09-10 14:42:46.195  INFO 6984 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/addComment],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.CommentController.addComment(int,java.lang.String)
+2018-09-10 14:42:46.196  INFO 6984 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/ || /index],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.HomeController.index(org.springframework.ui.Model)
+2018-09-10 14:42:46.197  INFO 6984 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/{userId}],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.HomeController.userIndex(org.springframework.ui.Model,int)
+2018-09-10 14:42:46.198  INFO 6984 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/dislike],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.LikeController.dislike(int)
+2018-09-10 14:42:46.199  INFO 6984 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/like],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.LikeController.like(int)
+2018-09-10 14:42:46.199  INFO 6984 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/reglogin],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.LoginController.reg(org.springframework.ui.Model,java.lang.String)
+2018-09-10 14:42:46.200  INFO 6984 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/reg/],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.LoginController.reg(org.springframework.ui.Model,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String)
+2018-09-10 14:42:46.200  INFO 6984 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.LoginController.logout(java.lang.String)
+2018-09-10 14:42:46.200  INFO 6984 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login/],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.LoginController.login(org.springframework.ui.Model,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String,boolean)
+2018-09-10 14:42:46.201  INFO 6984 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/msg/addMessage],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.MessageController.addMessage(java.lang.String,java.lang.String)
+2018-09-10 14:42:46.201  INFO 6984 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/msg/list],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.MessageController.getConversationList(org.springframework.ui.Model)
+2018-09-10 14:42:46.201  INFO 6984 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/msg/detail],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.MessageController.getConversationDetail(org.springframework.ui.Model,java.lang.String)
+2018-09-10 14:42:46.202  INFO 6984 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/question/add],methods=[POST]}" onto public java.lang.String com.baoning.website.controller.QuestionController.addQuestion(java.lang.String,java.lang.String)
+2018-09-10 14:42:46.202  INFO 6984 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/question/{qid}],methods=[GET]}" onto public java.lang.String com.baoning.website.controller.QuestionController.questionDetail(org.springframework.ui.Model,int)
+2018-09-10 14:42:46.205  INFO 6984 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-10 14:42:46.205  INFO 6984 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-10 14:42:46.228  INFO 6984 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-10 14:42:46.228  INFO 6984 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-10 14:42:46.257  INFO 6984 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-10 14:42:46.298  INFO 6984 --- [restartedMain] s.b.w.s.v.v.EmbeddedVelocityViewResolver : Using EmbeddedVelocityToolboxView instead of default VelocityView due to specified toolboxConfigLocation
+2018-09-10 14:42:46.403  INFO 6984 --- [restartedMain] o.s.w.s.v.velocity.VelocityConfigurer    : ClasspathResourceLoader with name 'springMacro' added to configured VelocityEngine
+2018-09-10 14:42:46.524  INFO 6984 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-09-10 14:42:46.569  INFO 6984 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-10 14:42:46.623  INFO 6984 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-09-10 14:42:46.628  INFO 6984 --- [restartedMain] com.baoning.website.WebsiteApplication   : Started WebsiteApplication in 3.711 seconds (JVM running for 4.629)
+2018-09-10 14:42:55.238  INFO 6984 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-10 14:42:55.239  INFO 6984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-10 14:42:55.252  INFO 6984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 13 ms
+2018-09-10 14:42:55.685  INFO 6984 --- [http-nio-8080-exec-1] o.a.v.t.v.servlet.ServletToolboxManager  : Using config file '/toolbox.xml'
+2018-09-10 14:42:55.685  WARN 6984 --- [http-nio-8080-exec-1] o.a.v.tools.view.XMLToolboxManager       : XMLToolboxManager has been deprecated. Please use org.apache.velocity.tools.ToolboxFactory instead.
+2018-09-10 14:42:55.685  WARN 6984 --- [http-nio-8080-exec-1] o.a.v.t.v.servlet.ServletToolboxManager  : ServletToolboxManager has been deprecated. Please use org.apache.velocity.tools.ToolboxFactory instead.
+2018-09-10 14:43:11.576 ERROR 6984 --- [http-nio-8080-exec-4] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:43:11.578 ERROR 6984 --- [http-nio-8080-exec-4] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:43:11.580 ERROR 6984 --- [http-nio-8080-exec-4] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:43:11.583 ERROR 6984 --- [http-nio-8080-exec-4] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:43:11.585 ERROR 6984 --- [http-nio-8080-exec-4] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:43:17.694 ERROR 6984 --- [http-nio-8080-exec-9] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:46:39.111 ERROR 6984 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:46:39.985 ERROR 6984 --- [http-nio-8080-exec-8] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:46:41.238 ERROR 6984 --- [http-nio-8080-exec-7] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:46:42.776 ERROR 6984 --- [http-nio-8080-exec-4] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:46:43.886 ERROR 6984 --- [http-nio-8080-exec-6] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:46:44.648 ERROR 6984 --- [http-nio-8080-exec-3] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:46:49.351 ERROR 6984 --- [http-nio-8080-exec-5] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:46:50.493 ERROR 6984 --- [http-nio-8080-exec-9] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:46:54.783 ERROR 6984 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:46:56.138 ERROR 6984 --- [http-nio-8080-exec-8] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:46:59.653 ERROR 6984 --- [http-nio-8080-exec-7] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:47:00.454 ERROR 6984 --- [http-nio-8080-exec-4] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:47:00.765 ERROR 6984 --- [http-nio-8080-exec-6] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:47:00.951 ERROR 6984 --- [http-nio-8080-exec-3] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:47:01.130 ERROR 6984 --- [http-nio-8080-exec-2] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:47:01.284 ERROR 6984 --- [http-nio-8080-exec-10] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:47:01.464 ERROR 6984 --- [http-nio-8080-exec-5] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:47:01.635 ERROR 6984 --- [http-nio-8080-exec-9] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:47:01.977 ERROR 6984 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:47:02.775 ERROR 6984 --- [http-nio-8080-exec-8] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:47:02.778 ERROR 6984 --- [http-nio-8080-exec-8] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:47:02.780 ERROR 6984 --- [http-nio-8080-exec-8] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:47:02.781 ERROR 6984 --- [http-nio-8080-exec-8] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:47:02.783 ERROR 6984 --- [http-nio-8080-exec-8] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:47:11.991 ERROR 6984 --- [http-nio-8080-exec-4] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:47:11.994 ERROR 6984 --- [http-nio-8080-exec-4] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:47:11.997 ERROR 6984 --- [http-nio-8080-exec-4] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:47:11.998 ERROR 6984 --- [http-nio-8080-exec-4] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:47:12.001 ERROR 6984 --- [http-nio-8080-exec-4] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 14:47:13.354  WARN 6984 --- [http-nio-8080-exec-10] o.s.web.servlet.PageNotFound             : Request method 'POST' not supported
+2018-09-10 15:42:25.039 ERROR 6984 --- [http-nio-8080-exec-8] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 15:42:25.041 ERROR 6984 --- [http-nio-8080-exec-8] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 15:42:25.044 ERROR 6984 --- [http-nio-8080-exec-8] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 15:42:25.045 ERROR 6984 --- [http-nio-8080-exec-8] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 15:42:25.047 ERROR 6984 --- [http-nio-8080-exec-8] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 15:42:26.060 ERROR 6984 --- [http-nio-8080-exec-8] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 15:42:26.941 ERROR 6984 --- [http-nio-8080-exec-1] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 15:42:27.131 ERROR 6984 --- [http-nio-8080-exec-2] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 15:42:27.338 ERROR 6984 --- [http-nio-8080-exec-7] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 15:42:27.531 ERROR 6984 --- [http-nio-8080-exec-5] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 15:43:02.480 ERROR 6984 --- [http-nio-8080-exec-9] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
+2018-09-10 15:43:06.071 ERROR 6984 --- [http-nio-8080-exec-6] com.baoning.website.util.JedisAdapter    : 发生异常:ERR wrong number of arguments for 'srem' command
