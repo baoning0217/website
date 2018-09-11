@@ -70,9 +70,8 @@ public class UserService {
         return map;
     }
 
-
-    public Map<String, String> login(String username, String password){
-        Map<String, String> map = new HashMap<String, String>();
+    public Map<String, Object> login(String username, String password){
+        Map<String, Object> map = new HashMap<String, Object>();
         if(StringUtils.isBlank(username)){
             map.put("msg", "用户名不能为空!");
             return map;
@@ -92,20 +91,18 @@ public class UserService {
         }
         String ticket = addLoginTicket(user.getId());
         map.put("ticket", ticket);
+        map.put("userId", user.getId());
 
         return map;
     }
-
 
     public void logout(String ticket){
         loginTicketDao.updateStatus(ticket, 1);
     }
 
-
     public User getUser(int id) {
         return userDao.selectById(id);
     }
-
 
     public User selectByName(String name){
         return userDao.selectByName(name);
@@ -118,7 +115,7 @@ public class UserService {
         LoginTicket loginTicket = new LoginTicket();
         loginTicket.setUserId(userId);
         Date date = new Date();
-        date.setTime(3600*24*7 + date.getTime());
+        date.setTime(3600*24*3 + date.getTime());
         loginTicket.setExpired(date);
         loginTicket.setStatus(0);
         loginTicket.setTicket(UUID.randomUUID().toString().replaceAll("-",""));

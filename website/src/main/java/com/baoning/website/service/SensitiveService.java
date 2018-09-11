@@ -57,7 +57,6 @@ public class SensitiveService implements InitializingBean{
         }
     }
 
-
     private class TrieNode{
 
         //是不是关键词的结尾
@@ -84,9 +83,7 @@ public class SensitiveService implements InitializingBean{
 
     }
 
-
     private TrieNode rootNode = new TrieNode();
-
 
     public String filter(String text){
         if(StringUtils.isBlank(text)){
@@ -131,15 +128,12 @@ public class SensitiveService implements InitializingBean{
         return result.toString();
     }
 
-
     //非法词
     private boolean isSymbol(char c){
         int ic = (int) c;
         //东亚文字 0x2E80-ox9FFF
         return !CharUtils.isAsciiAlphanumeric(c) && (ic < 0x2E80 || ic > 0x9FFF);
     }
-
-
 
 
 }

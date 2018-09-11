@@ -1,5 +1,8 @@
 package com.baoning.website.controller;
 
+import com.baoning.website.async.EventModel;
+import com.baoning.website.async.EventProducer;
+import com.baoning.website.async.EventType;
 import com.baoning.website.service.UserService;
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
@@ -21,11 +24,13 @@ import java.util.Map;
  */
 @Controller
 public class LoginController {
-    private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
-
+    private static final Logger logger = LoggerFactory.getLogger(LoginController.class);
 
     @Autowired
     UserService userService;
+
+    @Autowired
+    EventProducer eventProducer;
 
     /*
     *登录
@@ -37,11 +42,21 @@ public class LoginController {
                         @RequestParam(value = "next", required = false) String next,
                         @RequestParam(value = "rememberme",defaultValue = "false") boolean rememberme){
         try{
-            Map<String, String> map = userService.login(username,password);
+            Map<String, Object> map = userService.login(username,password);
             if (map.containsKey("ticket")){
                 Cookie cookie = new Cookie("ticket", map.get("ticket").toString());
                 cookie.setPath("/");
+                if(rememberme){
+                    cookie.setMaxAge(3600*24*3);
+                }
                 response.addCookie(cookie);
+
+                eventProducer.fireEvent(new EventModel(EventType.LOGIN)
+                        .setExt("username", username)
+                        .setExt("email", "1611193688@qq.com")
+
+                        .setActorId((int) map.get("userId")));
+
                 if(StringUtils.isNotBlank(next)){
                     return "redirect:" + next;
                 }
