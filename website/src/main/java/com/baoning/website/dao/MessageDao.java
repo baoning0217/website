@@ -1,6 +1,5 @@
 package com.baoning.website.dao;
 
-import com.baoning.website.model.Comment;
 import com.baoning.website.model.Message;
 import org.apache.ibatis.annotations.*;
 
@@ -28,5 +27,6 @@ public interface MessageDao {
 
     @Select({ " select count(id) from ", TABLE_NAME, " where has_read=0 and to_id=#{userId} and conversation_id=#{conversationId} " })
     int getConversationUnreadCount(@Param("userId") int userId, @Param("conversationId") String conversationId);
+
 
 }

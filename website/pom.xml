@@ -5,8 +5,9 @@
 
 	<groupId>com.baoning</groupId>
 	<artifactId>website</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2</version>
 	<packaging>jar</packaging>
+
 
 	<name>website</name>
 	<description>Demo project for Spring Boot</description>
