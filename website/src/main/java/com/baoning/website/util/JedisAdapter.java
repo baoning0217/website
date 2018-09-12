@@ -23,7 +23,7 @@ public class JedisAdapter implements InitializingBean {
 
     //创建redis线程池
     public void afterPropertiesSet() throws Exception {
-        //pool = new JedisPool("redis://192.168.65.206:6379/1");
+        //pool = new JedisPool("redis://192.168.65.206:6379");
         pool = new JedisPool("118.24.39.63",6379);
     }
 
