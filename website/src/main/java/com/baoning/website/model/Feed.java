@@ -5,7 +5,7 @@ import com.alibaba.fastjson.JSONObject;
 import java.util.Date;
 
 /**
- * created by baoning on 18/09/12
+ * created by baoning on 18/04/12
  */
 public class Feed {
 

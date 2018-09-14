@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 import java.security.MessageDigest;
 
 /**
- * created by baoning on 2018/9/8
+ * created by baoning on 2018/4/8
  */
 public class Md5Util {
 

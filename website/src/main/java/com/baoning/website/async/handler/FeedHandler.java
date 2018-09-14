@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
 import java.util.*;
 
 /**
- * created by baoning on 18/09/11
+ * created by baoning on 18/04/11
  */
 @Component
 public class FeedHandler implements EventHandler {

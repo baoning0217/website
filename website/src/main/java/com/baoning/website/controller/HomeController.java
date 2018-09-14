@@ -1,8 +1,10 @@
 package com.baoning.website.controller;
 
+import com.baoning.website.model.EntityType;
 import com.baoning.website.model.HostHolder;
 import com.baoning.website.model.Question;
 import com.baoning.website.model.ViewObject;
+import com.baoning.website.service.FollowService;
 import com.baoning.website.service.QuestionService;
 import com.baoning.website.service.UserService;
 import org.slf4j.Logger;
@@ -20,7 +22,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * created by baoning on 2018/9/8
+ * created by baoning on 2018/4/8
  */
 @Controller
 public class HomeController {
@@ -34,6 +36,9 @@ public class HomeController {
 
     @Autowired
     HostHolder hostHolder;
+
+    @Autowired
+    FollowService followService;
 
 
     @RequestMapping(path = {"/user/{userId}"}, method = {RequestMethod.GET})
@@ -55,6 +60,7 @@ public class HomeController {
         for(Question question : questionsList){
             ViewObject vo = new ViewObject();
             vo.set("question", question);
+            vo.set("followCount", followService.getFollowerCount(EntityType.ENTITY_QUESTION, question.getId()));
             vo.set("user", userService.getUser(question.getUserId()));
             vos.add(vo);
         }

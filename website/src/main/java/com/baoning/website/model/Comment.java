@@ -3,7 +3,7 @@ package com.baoning.website.model;
 import java.util.Date;
 
 /**
- * created by baoning on 2018/9/9
+ * created by baoning on 2018/4/9
  */
 public class Comment {
 

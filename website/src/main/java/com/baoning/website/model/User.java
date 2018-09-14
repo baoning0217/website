@@ -1,7 +1,7 @@
 package com.baoning.website.model;
 
 /**
- * created by baoning on 2018/9/8
+ * created by baoning on 2018/4/8
  */
 public class User {
 

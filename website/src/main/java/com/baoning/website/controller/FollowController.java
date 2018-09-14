@@ -22,7 +22,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * created by baoning on 18/09/11
+ * created by baoning on 18/04/11
  */
 @Controller
 public class FollowController {

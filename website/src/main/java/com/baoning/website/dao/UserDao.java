@@ -5,7 +5,7 @@ import javafx.scene.control.Tab;
 import org.apache.ibatis.annotations.*;
 
 /**
- * created by baoning on 2018/9/8
+ * created by baoning on 2018/4/8
  */
 @Mapper
 public interface UserDao {

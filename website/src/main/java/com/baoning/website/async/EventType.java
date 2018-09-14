@@ -3,7 +3,7 @@ package com.baoning.website.async;
 import org.omg.CORBA.UNKNOWN;
 
 /**
- * created by baoning on 18/09/10
+ * created by baoning on 18/04/10
  */
 public enum EventType {
 
@@ -12,7 +12,8 @@ public enum EventType {
     LOGIN(2),
     MAIL(3),
     FOLLOW(4),
-    UNFOLLOW(5);
+    UNFOLLOW(5),
+    AND_QUESTION(6);
 
 
     private int value;

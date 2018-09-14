@@ -9,7 +9,7 @@ import org.apache.ibatis.annotations.Select;
 import java.util.List;
 
 /**
- * created by baoning on 18/09/12
+ * created by baoning on 18/04/12
  */
 @Mapper
 public interface FeedDao {

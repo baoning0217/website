@@ -1,6 +1,9 @@
 package com.baoning.website.controller;
 
 import com.alibaba.fastjson.JSON;
+import com.baoning.website.async.EventModel;
+import com.baoning.website.async.EventProducer;
+import com.baoning.website.async.EventType;
 import com.baoning.website.model.*;
 import com.baoning.website.service.CommentService;
 import com.baoning.website.service.LikeService;
@@ -19,7 +22,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * created by baoning on 2018/9/9
+ * created by baoning on 2018/4/9
  */
 @Controller
 public class QuestionController {
@@ -40,6 +43,9 @@ public class QuestionController {
     @Autowired
     LikeService likeService;
 
+    @Autowired
+    EventProducer eventProducer;
+
 
     @RequestMapping(value = "/question/add", method = {RequestMethod.POST})
     @ResponseBody
@@ -58,6 +64,12 @@ public class QuestionController {
                 question.setUserId(hostHolder.getUser().getId());
             }
             if(questionService.addQuestion(question) > 0 ){
+                //增加题目以后，发送事件Solr
+                eventProducer.fireEvent(new EventModel(EventType.AND_QUESTION)
+                        .setActorId(question.getUserId())
+                        .setEntityId(question.getId())
+                        .setExt("title", question.getTitle())
+                        .setExt("content", question.getContent()));
                 return JSONUtil.getJSONString(0);
             }
         }catch (Exception e){

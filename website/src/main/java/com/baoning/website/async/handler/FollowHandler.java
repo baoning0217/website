@@ -17,7 +17,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * created by baoning on 18/09/11
+ * created by baoning on 18/04/11
  */
 @Component
 public class FollowHandler implements EventHandler {

@@ -1,7 +1,7 @@
 package com.baoning.website.model;
 
 /**
- * created by baoning on 2018/9/9
+ * created by baoning on 2018/4/9
  */
 public class EntityType {
 

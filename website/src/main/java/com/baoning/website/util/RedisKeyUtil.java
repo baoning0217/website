@@ -1,7 +1,7 @@
 package com.baoning.website.util;
 
 /**
- * created by baoning on 18/09/10
+ * created by baoning on 18/04/10
  * 设置redis的key值，来源根据业务不同自定义设置
  */
 public class RedisKeyUtil {
